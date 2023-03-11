@@ -4,6 +4,7 @@ import { CartCard } from "../components";
 
 export const Cart = () => {
   const { total } = useCart();
+  //const { total } = useContext(CartContext);
   useTitle("Cart");
 
   const products = [
